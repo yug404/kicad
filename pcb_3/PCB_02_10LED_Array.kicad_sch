@@ -1,0 +1,2199 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bb914b83-07e7-4d4d-b9ae-01ad39b7c901")
+	(paper "A4")
+	(lib_symbols
+		(symbol "MyCustomSymbols:LED_custom"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_custom_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0) (xy -2.54 0) (xy 0 2.54) (xy 2.54 0) (xy 0 2.54) (xy -2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_custom_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyCustomSymbols:R_custom"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_custom_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_custom_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyCustomSymbols:customBattery_2pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "customBattery_2pin_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "customBattery_2pin_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 76.2 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a4e6a70-4bf1-48d7-9d7d-78f123bfe55b")
+	)
+	(junction
+		(at 76.2 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "282286ef-af53-465f-8592-c2b9f16f3908")
+	)
+	(junction
+		(at 57.15 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3735a6e3-c140-4142-b6cc-a4291a15c390")
+	)
+	(junction
+		(at 57.15 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b899929-0be7-48a5-9dc5-00abd169366a")
+	)
+	(junction
+		(at 57.15 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3face377-8b6f-4a2b-986e-76af2cce4121")
+	)
+	(junction
+		(at 76.2 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d0e0baf-6fc4-41d0-b6ca-62143c1c8883")
+	)
+	(junction
+		(at 76.2 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dc691c6-eacc-4a11-a913-2a5520898566")
+	)
+	(junction
+		(at 57.15 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53bda571-9437-4327-b95a-c6f8dcca4b9c")
+	)
+	(junction
+		(at 76.2 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69bdf840-3aee-4b96-81ce-0480616043fc")
+	)
+	(junction
+		(at 76.2 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71b547c1-46b0-4fb3-adbd-d035fd101627")
+	)
+	(junction
+		(at 57.15 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eed5384-4651-444a-85c6-80cbe6a3c91b")
+	)
+	(junction
+		(at 76.2 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d0ef195-d262-424a-9e06-9fce580812c2")
+	)
+	(junction
+		(at 57.15 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a553405-0908-4be6-9bfc-e0d0ed5698c1")
+	)
+	(junction
+		(at 57.15 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b8022d6-6b3b-4c4e-b927-e03763e6e8ca")
+	)
+	(junction
+		(at 76.2 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bf66a4b-49d0-4fc8-ba13-bea9947849fa")
+	)
+	(junction
+		(at 76.2 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abaf17c2-d9b6-42b8-b07c-1ad0c197ea02")
+	)
+	(junction
+		(at 57.15 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae62fa9d-4324-4426-9f86-75365e559072")
+	)
+	(junction
+		(at 57.15 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da280346-e5e9-4556-9040-3716b8ddb9be")
+	)
+	(wire
+		(pts
+			(xy 76.2 134.62) (xy 76.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048c972e-b3ea-424b-a5c4-d3d269299e9b")
+	)
+	(wire
+		(pts
+			(xy 76.2 96.52) (xy 69.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbade84-baf7-453d-832e-9c4167748a81")
+	)
+	(wire
+		(pts
+			(xy 76.2 119.38) (xy 76.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ebc3418-3eba-463b-a359-5e5bd22f7edc")
+	)
+	(wire
+		(pts
+			(xy 57.15 96.52) (xy 63.5 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d5478e-561a-4d58-b26a-4cf35e94532c")
+	)
+	(wire
+		(pts
+			(xy 76.2 104.14) (xy 76.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31524ae6-1d40-4cfe-aa59-6f90fd2c2655")
+	)
+	(wire
+		(pts
+			(xy 76.2 165.1) (xy 76.2 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32729f44-fe17-4f14-aa82-6ef8b9362679")
+	)
+	(wire
+		(pts
+			(xy 57.15 96.52) (xy 57.15 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e577f15-322d-4bef-8cfe-1b584ce51842")
+	)
+	(wire
+		(pts
+			(xy 76.2 149.86) (xy 76.2 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f0ded9-0c50-41c9-be18-733d1cbee165")
+	)
+	(wire
+		(pts
+			(xy 57.15 104.14) (xy 57.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5851f792-b365-42cd-92b9-dd0b24dfee53")
+	)
+	(wire
+		(pts
+			(xy 76.2 96.52) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e60dd6e-851e-44cb-b475-eb5847cace2d")
+	)
+	(wire
+		(pts
+			(xy 76.2 111.76) (xy 76.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6950c012-1526-45c9-980d-c05bb7bdb803")
+	)
+	(wire
+		(pts
+			(xy 57.15 104.14) (xy 58.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cdad2db-3af6-41cf-8a13-15d7259de775")
+	)
+	(wire
+		(pts
+			(xy 57.15 134.62) (xy 58.42 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719d53b6-e949-48d2-9b68-3a31fd48da58")
+	)
+	(wire
+		(pts
+			(xy 57.15 142.24) (xy 58.42 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8d2469-8151-4290-8bd0-d3dcdd1a4bf9")
+	)
+	(wire
+		(pts
+			(xy 57.15 134.62) (xy 57.15 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9245c319-7f24-4927-a163-9a55aa3669b7")
+	)
+	(wire
+		(pts
+			(xy 57.15 165.1) (xy 58.42 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954739e7-e4ea-4bf3-abf8-6c544bc6fd54")
+	)
+	(wire
+		(pts
+			(xy 57.15 157.48) (xy 58.42 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9650dae2-e96b-4932-9376-fcf5de3c93bb")
+	)
+	(wire
+		(pts
+			(xy 57.15 172.72) (xy 58.42 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f36dcce-83be-4b23-aafc-81058d8bc991")
+	)
+	(wire
+		(pts
+			(xy 57.15 149.86) (xy 58.42 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b4289c-3218-4944-a138-ab7b4f98a7cd")
+	)
+	(wire
+		(pts
+			(xy 57.15 127) (xy 58.42 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4748a3-762b-40c8-ba45-af7550b428e5")
+	)
+	(wire
+		(pts
+			(xy 57.15 142.24) (xy 57.15 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c109874e-9fcc-4309-9b83-d4ef1f766a4e")
+	)
+	(wire
+		(pts
+			(xy 57.15 149.86) (xy 57.15 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c243372c-2493-4f35-86ac-5142578b870b")
+	)
+	(wire
+		(pts
+			(xy 57.15 127) (xy 57.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caad08cb-6e4d-4b10-a762-9601fce7b51d")
+	)
+	(wire
+		(pts
+			(xy 76.2 142.24) (xy 76.2 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2248038-7e53-4d53-b357-2339c54b3f19")
+	)
+	(wire
+		(pts
+			(xy 57.15 157.48) (xy 57.15 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d595d2e5-5304-46bf-acb7-1185ddf24c11")
+	)
+	(wire
+		(pts
+			(xy 57.15 165.1) (xy 57.15 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df152341-6c57-44cb-9c5e-31facc6c3d05")
+	)
+	(wire
+		(pts
+			(xy 57.15 111.76) (xy 58.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ae135e-9bb1-44e9-9f01-b88eabeee1a4")
+	)
+	(wire
+		(pts
+			(xy 57.15 119.38) (xy 58.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e231292e-0a12-4c53-9491-2e773b755532")
+	)
+	(wire
+		(pts
+			(xy 57.15 111.76) (xy 57.15 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d9bb98-6cfc-4631-bac4-23ea21b93a34")
+	)
+	(wire
+		(pts
+			(xy 76.2 157.48) (xy 76.2 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f897524b-26fb-4700-9a03-7e65979b0c71")
+	)
+	(wire
+		(pts
+			(xy 57.15 119.38) (xy 57.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91820fc-0864-4b68-9e5b-a91ab1cdb55a")
+	)
+	(wire
+		(pts
+			(xy 76.2 127) (xy 76.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb24bddc-f1f8-4c0b-931e-1751170cb568")
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:R_custom")
+		(at 71.12 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01c141e2-c0c6-47b9-81c7-ef9f70717c80")
+		(property "Reference" "U18"
+			(at 71.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "470"
+			(at 70.866 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:Resistor_Axial_7p5mm_Custom"
+			(at 71.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7787fc8d-c23f-48e8-b93f-955c936e564f")
+		)
+		(pin "1"
+			(uuid "0140cbf6-00f2-487b-be7a-ca48c2a21edc")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:R_custom")
+		(at 71.12 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0caf0684-abb3-48c5-a025-6c2227b91b7b")
+		(property "Reference" "U7"
+			(at 71.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "470"
+			(at 70.866 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:Resistor_Axial_7p5mm_Custom"
+			(at 71.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1616fec2-f66a-4b72-9d25-0a660aed2925")
+		)
+		(pin "1"
+			(uuid "2ed7be3f-0db3-4e90-be6b-5036591192e4")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:R_custom")
+		(at 71.12 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25b75591-ae3f-45b6-b092-7c2e5be2ce58")
+		(property "Reference" "U20"
+			(at 71.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "470"
+			(at 70.866 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:Resistor_Axial_7p5mm_Custom"
+			(at 71.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e41088c-c18c-4a15-b25f-8c949ed6b520")
+		)
+		(pin "1"
+			(uuid "c01293a5-00bc-43ba-b1f1-8dc74dfb75a7")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:R_custom")
+		(at 71.12 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c2916bb-5e33-47b1-a0e0-484ad066d01b")
+		(property "Reference" "U5"
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "470"
+			(at 70.866 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:Resistor_Axial_7p5mm_Custom"
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52ad14e8-3d6d-40e7-8998-f431a64b103a")
+		)
+		(pin "1"
+			(uuid "ef5e8a0b-626e-4b54-9c03-4861d769c37d")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:LED_custom")
+		(at 63.5 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3873e3de-7a9e-401c-a44a-6647c2634bb4")
+		(property "Reference" "U16"
+			(at 64.77 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Red_led"
+			(at 62.23 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:customLED_5mm"
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fbf8fd0-106b-4a1f-a828-07fdc5914f2c")
+		)
+		(pin "2"
+			(uuid "72b719ff-07d8-4a47-9a62-392d02300c1b")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:LED_custom")
+		(at 63.5 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5483793e-6a24-4d38-8286-bae612ace030")
+		(property "Reference" "U12"
+			(at 64.77 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Red_led"
+			(at 62.23 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:customLED_5mm"
+			(at 63.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39718159-5cab-40db-b5f4-7b43e9500195")
+		)
+		(pin "2"
+			(uuid "5439716b-0300-4804-ba6e-b9d41581af01")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:R_custom")
+		(at 71.12 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60f033b8-417f-4550-9913-4214537ea3a9")
+		(property "Reference" "U19"
+			(at 71.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "470"
+			(at 70.866 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:Resistor_Axial_7p5mm_Custom"
+			(at 71.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69cd4d9d-5a49-4f81-a7d3-7bf861f2e605")
+		)
+		(pin "1"
+			(uuid "ffe99fc7-9611-4f0d-85db-1d4669c40200")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:R_custom")
+		(at 71.12 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66e658a7-d4f9-4973-8f7e-3ceadf628a4b")
+		(property "Reference" "U17"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "470"
+			(at 70.866 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:Resistor_Axial_7p5mm_Custom"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba9a5b45-87ca-4e84-86b8-34067f05d5a2")
+		)
+		(pin "1"
+			(uuid "25ef3b16-124a-4710-93f2-6963a70c93cc")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:LED_custom")
+		(at 63.5 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "722579f0-9e04-44f1-be37-938a34dcdd3a")
+		(property "Reference" "U13"
+			(at 64.77 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Red_led"
+			(at 62.23 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:customLED_5mm"
+			(at 63.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ff02f04-4f81-4532-8f5b-fc993ce10d3e")
+		)
+		(pin "2"
+			(uuid "7ff62221-a6d3-4160-be87-ffb3851c61f4")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:R_custom")
+		(at 71.12 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "741567fc-2846-4390-b83b-53d830543084")
+		(property "Reference" "U9"
+			(at 71.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "470"
+			(at 70.866 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:Resistor_Axial_7p5mm_Custom"
+			(at 71.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11304de3-085b-49aa-8683-9989524e13f3")
+		)
+		(pin "1"
+			(uuid "7667a227-0de4-40d6-9701-738d2f4057c9")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:R_custom")
+		(at 71.12 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "762f99ed-d326-401c-a221-cf35b98174cd")
+		(property "Reference" "U21"
+			(at 71.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "470"
+			(at 70.866 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:Resistor_Axial_7p5mm_Custom"
+			(at 71.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b35a526e-7359-4f68-b1d3-f9f6dbce5723")
+		)
+		(pin "1"
+			(uuid "e4942f98-253d-45f0-81e1-61e2f4c95c82")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:LED_custom")
+		(at 63.5 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76d30022-1f9c-4506-9eae-13d1c94eae18")
+		(property "Reference" "U8"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Red_led"
+			(at 62.23 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:customLED_5mm"
+			(at 63.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4014b5d-7d6e-4d12-98e7-fd2c50fc9aef")
+		)
+		(pin "2"
+			(uuid "c25a4880-7598-4aaf-819c-55ea3a2bc468")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:LED_custom")
+		(at 63.5 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "977908f0-e01c-4e36-ba63-11cfe9cb8dce")
+		(property "Reference" "U6"
+			(at 64.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Red_led"
+			(at 62.23 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:customLED_5mm"
+			(at 63.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfdf046e-3747-4c92-89c8-7a5df1cba083")
+		)
+		(pin "2"
+			(uuid "27bb1dbc-592d-4328-a1be-6619c6e3c99f")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:LED_custom")
+		(at 63.5 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "995ee191-132a-4c06-801d-d31e3ef6e5a2")
+		(property "Reference" "U14"
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Red_led"
+			(at 62.23 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:customLED_5mm"
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d17c63b4-eb29-4c1c-a5b5-6df869b212d8")
+		)
+		(pin "2"
+			(uuid "71ff1302-aca8-4be1-b619-af62ce2af90a")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:LED_custom")
+		(at 63.5 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a132c1a2-6182-4512-95cd-0afb62178fbf")
+		(property "Reference" "U10"
+			(at 64.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Red_led"
+			(at 62.23 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:customLED_5mm"
+			(at 63.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b56e3178-d2cc-4288-96c5-952070273051")
+		)
+		(pin "2"
+			(uuid "a3b0316b-c431-46c6-9528-5813da39713e")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:LED_custom")
+		(at 63.5 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1450002-632e-4e0e-acba-f14669602ba1")
+		(property "Reference" "U15"
+			(at 64.77 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Red_led"
+			(at 62.23 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:customLED_5mm"
+			(at 63.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42581bf6-17c1-4037-8d23-cfff28befa44")
+		)
+		(pin "2"
+			(uuid "ee4edea6-41d6-458d-95a5-d6f8538de805")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:R_custom")
+		(at 71.12 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c769fcb0-23cb-45ac-a185-cff3fbae3d45")
+		(property "Reference" "U2"
+			(at 71.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "470"
+			(at 70.866 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:Resistor_Axial_7p5mm_Custom"
+			(at 71.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49ee3ccd-1033-4412-9f8f-6b4d5e2f252d")
+		)
+		(pin "1"
+			(uuid "c739f605-a466-4058-8fbb-1dd464cabb87")
+		)
+		(instances
+			(project ""
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:LED_custom")
+		(at 63.5 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cabd2752-d620-4d62-b6a5-0465dc1fc676")
+		(property "Reference" "U4"
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Red_led"
+			(at 62.23 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:customLED_5mm"
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1de9e427-fc93-4191-9e72-6cdc490187af")
+		)
+		(pin "2"
+			(uuid "f68ca1b5-829b-4350-94da-7ffe792e3b60")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:customBattery_2pin")
+		(at 67.31 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d61189a8-250b-42f7-812f-a7a57822e1d2")
+		(property "Reference" "U1"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3"
+			(at 66.675 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_1060_1x2032"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8050276a-a90f-4e6f-980c-5250665bcff6")
+		)
+		(pin "1"
+			(uuid "2766776d-c5ef-4912-91d8-9d273e5ed8bf")
+		)
+		(instances
+			(project ""
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:LED_custom")
+		(at 63.5 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da24e6e4-d390-4086-9a90-687ab2dab21e")
+		(property "Reference" "U3"
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Red_led"
+			(at 62.23 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:customLED_5mm"
+			(at 63.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f20488f6-f3f1-40ef-b4b3-27e23e003036")
+		)
+		(pin "2"
+			(uuid "89a04726-0bb3-4e81-8a78-eabe4d51970b")
+		)
+		(instances
+			(project ""
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyCustomSymbols:R_custom")
+		(at 71.12 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f70d50cd-2a5d-415e-adf8-efee22f8df27")
+		(property "Reference" "U11"
+			(at 71.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "470"
+			(at 70.866 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:Resistor_Axial_7p5mm_Custom"
+			(at 71.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "221393c0-f9c0-43a1-8947-85036ee02518")
+		)
+		(pin "1"
+			(uuid "2687a479-8f8d-4ac1-87bd-e980ec854e62")
+		)
+		(instances
+			(project "PCB_02_10LED_Array"
+				(path "/bb914b83-07e7-4d4d-b9ae-01ad39b7c901"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
